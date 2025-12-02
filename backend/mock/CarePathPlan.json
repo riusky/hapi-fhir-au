@@ -1,0 +1,959 @@
+{
+  "success": true,
+  "data": [
+    {
+      "resourceType": "CarePlan",
+      "id": "CarePlan-19841",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:19.023+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/CarePlan"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/default",
+          "valueBoolean": false
+        }
+      ],
+      "status": "active",
+      "intent": "order",
+      "category": [
+        {
+          "text": "Treatment Planning"
+        }
+      ],
+      "title": "0RTT Import Unity",
+      "subject": {
+        "reference": "Patient/Patient-29590"
+      },
+      "created": "2022-03-09T13:06:04-06:00",
+      "author": {
+        "reference": "Organization/Organization-Dept-3",
+        "display": "Radiation Oncology"
+      },
+      "activity": [
+        {
+          "id": "ActivityInstance-461637",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1388",
+                "display": "Import Images/Fusion"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-10007"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-461638",
+              "display": "Review Import/Add Care Path"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 0,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Import Images/Fusion",
+                  "display": "Import Images/Fusion"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "completed",
+            "statusReason": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/aria-careplanactivityStatusReason",
+                  "code": "not-available",
+                  "display": "not-available"
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T10:42:00-06:00"
+            },
+
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1722",
+                "display": "Yen-Peng Liao"
+              },
+              {
+                "reference": "Practitioner/Practitioner-1766",
+                "display": "Sagar Ghimire"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ActivityInstance-461638",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1412",
+                "display": "Review Import/Add Care Path"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-461637",
+                "display": "Import Images/Fusion"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-10007"
+              }
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 60,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Review Import/Add Care Path",
+                  "display": "Review Import/Add Care Path"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "completed",
+            "statusReason": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/aria-careplanactivityStatusReason",
+                  "code": "not-available",
+                  "display": "not-available"
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T10:42:00-06:00"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "CarePlan",
+      "id": "CarePlan-20717",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:18.874+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/CarePlan"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/default",
+          "valueBoolean": false
+        }
+      ],
+      "status": "active",
+      "intent": "order",
+      "category": [
+        {
+          "text": "Treatment Planning"
+        },
+        {
+          "text": "Physician"
+        }
+      ],
+      "title": "DOSI_MOSAIQ_Standard",
+      "subject": {
+        "reference": "Patient/Patient-29590"
+      },
+      "created": "2022-12-11T22:42:18-06:00",
+      "author": {
+        "reference": "Organization/Organization-Dept-3",
+        "display": "Radiation Oncology"
+      },
+      "activity": [
+        {
+          "id": "ActivityInstance-346567",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2023-06-01T23:28:23-05:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1390",
+                "display": "Generate Contours"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-74"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-346562",
+              "display": "Treatment Planning"
+            },
+            {
+              "reference": "Task/Task-202793",
+              "display": "Generate Contours"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 0,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Generate Contours",
+                  "display": "Generate Contours"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Physician"
+              }
+            ],
+            "status": "completed",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Completed",
+                        "display": "Completed"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-10T19:43:00-06:00"
+            }
+          }
+        },
+        {
+          "id": "ActivityInstance-346562",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2023-08-02T10:44:02-05:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1391",
+                "display": "Treatment Planning"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346567",
+                "display": "Generate Contours"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-346568",
+              "display": "Review Plan(s)"
+            },
+            {
+              "reference": "Task/Task-172396",
+              "display": "Treatment Planning"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 900,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Treatment Planning",
+                  "display": "Treatment Planning"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "completed",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Open",
+                        "display": "Open"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T10:42:00-06:00"
+            },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327",
+                "display": "Yang K. Park"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ActivityInstance-346568",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2022-12-17T11:42:26-06:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1392",
+                "display": "Review Plan(s)"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346562",
+                "display": "Treatment Planning"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-346563",
+              "display": "Chart Preparation"
+            },
+            {
+              "reference": "ServiceRequest/ActivityInstance-346569",
+              "display": "Sign Mosaiq Rx"
+            },
+            {
+              "reference": "Task/Task-172395",
+              "display": "Review Plan(s)"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 0,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Review Plan(s)",
+                  "display": "Review Plan(s)"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Physician"
+              }
+            ],
+            "status": "completed",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Completed",
+                        "display": "Completed"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T12:42:00-06:00"
+            },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327",
+                "display": "Yang K. Park"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ActivityInstance-346563",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2023-06-01T23:19:39-05:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1393",
+                "display": "Chart Preparation"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346568",
+                "display": "Review Plan(s)"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-52"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-346564",
+              "display": "Dosi Chart Review"
+            },
+            {
+              "reference": "ServiceRequest/ActivityInstance-346566",
+              "display": "3D/IMRT Planning Note"
+            },
+            {
+              "reference": "Task/Task-202795",
+              "display": "Chart Preparation"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 180,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Chart Preparation",
+                  "display": "Chart Preparation"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "scheduled",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Open",
+                        "display": "Open"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T15:42:00-06:00"
+            },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327",
+                "display": "Yang K. Park"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ActivityInstance-346569",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2023-06-01T23:16:36-05:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1465",
+                "display": "Sign Mosaiq Rx"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346568",
+                "display": "Review Plan(s)"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": true
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-74"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "Task/Task-202794",
+              "display": "Sign Mosaiq Rx"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 180,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Sign Mosaiq Rx",
+                  "display": "Sign Mosaiq Rx"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Physician"
+              }
+            ],
+            "status": "scheduled",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Open",
+                        "display": "Open"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-12T08:00:00-06:00"
+            }
+          }
+        },
+        {
+          "id": "ActivityInstance-346564",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2024-04-17T11:34:04-05:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1434",
+                "display": "Dosi Chart Review"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346563",
+                "display": "Chart Preparation"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-10006"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "ServiceRequest/ActivityInstance-346565",
+              "display": "Start Date - STANDARD"
+            },
+            {
+              "reference": "Task/Task-202796",
+              "display": "Dosi Chart Review"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 150,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Dosi Chart Review",
+                  "display": "Dosi Chart Review"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "scheduled",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Open",
+                        "display": "Open"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "statusReason": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/aria-careplanactivityStatusReason",
+                  "code": "not-available",
+                  "display": "not-available"
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T18:12:00-06:00"
+            },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327",
+                "display": "Yang K. Park"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ActivityInstance-346566",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1451",
+                "display": "3D/IMRT Planning Note"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346563",
+                "display": "Chart Preparation"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-10008"
+              }
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 150,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "3D/IMRT Planning Note",
+                  "display": "3D/IMRT Planning Note"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "not-started",
+            "statusReason": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/aria-careplanactivityStatusReason",
+                  "code": "not-available",
+                  "display": "not-available"
+                }
+              ]
+            },
+            "scheduledTiming": {
+              "repeat": {
+                "duration": 0,
+                "durationUnit": "min"
+              }
+            }
+          }
+        },
+        {
+          "id": "ActivityInstance-346565",
+          "extension": [
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/lastUpdatedOn",
+              "valueDateTime": "2024-01-04T12:30:52-06:00"
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/careplan-activity-definition",
+              "valueReference": {
+                "reference": "ActivityDefinition/ActivityDefinition-1429",
+                "display": "Start Date - STANDARD"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activitybasedOn",
+              "valueReference": {
+                "reference": "ServiceRequest/ActivityInstance-346564",
+                "display": "Dosi Chart Review"
+              }
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/activityAutoAssignOncologist",
+              "valueBoolean": false
+            },
+            {
+              "url": "http://varian.com/fhir/v1/StructureDefinition/carePlan-activityAdditionalPerformer",
+              "valueReference": {
+                "reference": "Group/Group-52"
+              }
+            }
+          ],
+          "outcomeReference": [
+            {
+              "reference": "Task/Task-172394",
+              "display": "Start Date - STANDARD"
+            }
+          ],
+          "detail": {
+            "extension": [
+              {
+                "url": "http://varian.com/fhir/v1/StructureDefinition/activityduration-lag-from-predecessor",
+                "valueQuantity": {
+                  "value": 270,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org"
+                }
+              }
+            ],
+            "kind": "Task",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/activity-service-type",
+                  "code": "Start Date - STANDARD",
+                  "display": "Start Date - STANDARD"
+                }
+              ]
+            },
+            "goal": [
+              {
+                "display": "Treatment Planning"
+              }
+            ],
+            "status": "scheduled",
+            "_status": {
+              "extension": [
+                {
+                  "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                        "code": "Open",
+                        "display": "Open"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "statusReason": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/aria-careplanactivityStatusReason",
+                  "code": "not-available",
+                  "display": "not-available"
+                }
+              ]
+            },
+            "scheduledPeriod": {
+              "end": "2022-12-11T22:42:00-06:00"
+            },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327",
+                "display": "Yang K. Park"
+              }
+            ]
+          }
+        }
+      ],
+      "note": [
+        {
+          "text": "Effective 9/5/2022"
+        }
+      ]
+    }
+  ],
+  "timestamp": 1762758760304
+}

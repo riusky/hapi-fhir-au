@@ -1,0 +1,1141 @@
+{
+  "success": true,
+  "data": [
+    {
+      "resourceType": "Task",
+      "id": "Task-172394",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.163+00:00"
+      },
+      "status": "draft",
+      "intent": "order",
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/123",
+            "display": "Dr. Smith"
+          },
+          "time": "2025-01-20T10:30:00Z",
+          "text": "Approved the treatment planning request."
+        },
+        {
+          "authorReference": {
+            "reference": "Practitioner/456",
+            "display": "Dr. Lee"
+          },
+          "time": "2025-01-21T12:00:00Z",
+          "text": "Patient notified to arrive early for setup."
+        }
+      ]
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-172395",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.270+00:00"
+      },
+      "status": "draft",
+      "intent": "order",
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/123",
+            "display": "Dr. Smith"
+          },
+          "time": "2025-01-20T10:30:00Z",
+          "text": "Approved the treatment planning request."
+        },
+        {
+          "authorReference": {
+            "reference": "Practitioner/456",
+            "display": "Dr. Lee"
+          },
+          "time": "2025-01-21T12:00:00Z",
+          "text": "Patient notified to arrive early for setup."
+        }
+      ]
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-172396",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.365+00:00"
+      },
+      "status": "draft",
+      "intent": "order",
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/123",
+            "display": "Dr. Smith"
+          },
+          "time": "2025-01-20T10:30:00Z",
+          "text": "Approved the treatment planning request."
+        },
+        {
+          "authorReference": {
+            "reference": "Practitioner/456",
+            "display": "Dr. Lee"
+          },
+          "time": "2025-01-21T12:00:00Z",
+          "text": "Patient notified to arrive early for setup."
+        }
+      ]
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-202793",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.475+00:00"
+      },
+      "status": "draft",
+      "intent": "order",
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/123",
+            "display": "Dr. Smith"
+          },
+          "time": "2025-01-20T10:30:00Z",
+          "text": "Approved the treatment planning request."
+        },
+        {
+          "authorReference": {
+            "reference": "Practitioner/456",
+            "display": "Dr. Lee"
+          },
+          "time": "2025-01-21T12:00:00Z",
+          "text": "Patient notified to arrive early for setup."
+        }
+      ]
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-202794",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.547+00:00"
+      },
+      "status": "draft",
+      "intent": "order",
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/123",
+            "display": "Dr. Smith"
+          },
+          "time": "2025-01-20T10:30:00Z",
+          "text": "Approved the treatment planning request."
+        },
+        {
+          "authorReference": {
+            "reference": "Practitioner/456",
+            "display": "Dr. Lee"
+          },
+          "time": "2025-01-21T12:00:00Z",
+          "text": "Patient notified to arrive early for setup."
+        }
+      ]
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-202795",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:16.627+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229131",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:17.055+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229132",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:17.164+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229133",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:17.257+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229134",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:17.337+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229135",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:17.430+00:00"
+      },
+      "status": "draft",
+      "intent": "order"
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-202796",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.072+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-06-01T23-22-43-902-202796@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "202796"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-346564"
+        }
+      ],
+      "status": "draft",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Open",
+                  "display": "Open"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Planning Tasks",
+            "display": "Planning Tasks"
+          }
+        ]
+      },
+      "description": "Dosimetry Second Check",
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1434",
+        "display": "Dosi Chart Review"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-06-01T00:00:00-05:00",
+      "lastModified": "2024-04-17T11:34:04-05:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1327",
+        "display": "Yang K. Park"
+      },
+      "owner": {
+        "id": "615313",
+        "reference": "Practitioner/Practitioner-1327",
+        "display": "Yang K. Park"
+      },
+      "restriction": {
+        "period": {
+          "end": "2022-12-11T18:12:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "615313",
+            "reference": "Practitioner/Practitioner-1327",
+            "display": "Yang K. Park"
+          },
+          {
+            "id": "615312",
+            "reference": "Group/Group-10006",
+            "display": "DosiChartCheck"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-206874",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.146+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-06-26T09-47-09-902-206874@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "206874"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-395040"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Planning Tasks",
+            "display": "Planning Tasks"
+          }
+        ]
+      },
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1398",
+        "display": "Replan"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-06-26T00:00:00-05:00",
+      "lastModified": "2023-08-07T18:13:03-05:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1327",
+        "display": "Yang K. Park"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-08-12T12:00:00-05:00"
+        },
+        "recipient": [
+          {
+            "id": "627316",
+            "reference": "Group/Group-10004",
+            "display": "Physics-Ethos"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229130",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.176+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-50-902-229130@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229130"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426536"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Oncologist Tasks",
+            "display": "Oncologist Tasks"
+          }
+        ]
+      },
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1397",
+        "display": "Sign Plan Doc & Rx"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "owner": {
+        "id": "698017",
+        "reference": "Practitioner/Practitioner-1580",
+        "display": "RO Drtest MD"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-17T12:00:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698017",
+            "reference": "Practitioner/Practitioner-1580",
+            "display": "RO Drtest MD"
+          },
+          {
+            "id": "698016",
+            "reference": "Group/Group-74",
+            "display": "Physician"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229136",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.224+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-50-902-229136@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229136"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426538"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Physics Tasks",
+            "display": "Physics Tasks"
+          }
+        ]
+      },
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1482",
+        "display": "Unity Plan QA"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-17T16:00:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698019",
+            "reference": "Group/Group-10010",
+            "display": "Physics-MPA"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229139",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.271+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-50-902-229139@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229139"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426541"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Treatment",
+            "display": "Treatment"
+          }
+        ]
+      },
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1486",
+        "display": "Unity Dry Run"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-17T16:00:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698022",
+            "reference": "Group/Group-64",
+            "display": "Radiation Therapists"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229138",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.300+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-50-902-229138@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229138"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426539"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Physics Tasks",
+            "display": "Physics Tasks"
+          }
+        ]
+      },
+      "description": "Unity Physics Initial Chart Check",
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1484",
+        "display": "Unity Physics Initial Chart Check"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-17T17:00:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698020",
+            "reference": "Group/Group-10007",
+            "display": "Physics-Unity"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229137",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.350+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 10,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-50-902-229137@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229137"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426540"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Physics Tasks",
+            "display": "Physics Tasks"
+          }
+        ]
+      },
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1489",
+        "display": "Unity-Phys Tx Approve"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-20T09:10:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698021",
+            "reference": "Group/Group-10007",
+            "display": "Physics-Unity"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Task",
+      "id": "Task-229129",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-11-10T02:32:19.394+00:00",
+        "profile": ["http://varian.com/fhir/v1/StructureDefinition/Task"]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/task-minutesDuration",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "Minutes",
+            "system": "http://varian.com/fhir/CodeSystem/quantity-units",
+            "code": "Minutes"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/readOnly",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/task/UID",
+          "value": "2023-11-02T10-38-24-902-229129@973432337593"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/task/RadOnc-Id",
+          "value": "229129"
+        }
+      ],
+      "basedOn": [
+        {
+          "reference": "ServiceRequest/ActivityInstance-426531"
+        }
+      ],
+      "status": "cancelled",
+      "_status": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-status",
+                  "code": "Cancelled",
+                  "display": "Cancelled"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "intent": "order",
+      "priority": "urgent",
+      "_priority": {
+        "extension": [
+          {
+            "url": "http://varian.com/fhir/v1/StructureDefinition/translation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://varian.com/fhir/CodeSystem/Task/task-priority",
+                  "code": "Medium",
+                  "display": "Medium"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://varian.com/fhir/CodeSystem/activityDefinition-category",
+            "code": "Planning Tasks",
+            "display": "Planning Tasks"
+          }
+        ]
+      },
+      "description": "Patient Start Date for Mosaiq plans",
+      "focus": {
+        "reference": "ActivityDefinition/ActivityDefinition-1429",
+        "display": "Start Date - STANDARD"
+      },
+      "for": {
+        "reference": "Patient/Patient-29590",
+        "display": "ONESIGN, YKP"
+      },
+      "authoredOn": "2023-11-02T00:00:00-05:00",
+      "lastModified": "2024-01-26T08:33:54-06:00",
+      "requester": {
+        "reference": "Practitioner/Practitioner-1635",
+        "display": "Justin Visak"
+      },
+      "restriction": {
+        "period": {
+          "end": "2023-11-20T12:00:00-06:00"
+        },
+        "recipient": [
+          {
+            "id": "698023",
+            "reference": "Group/Group-10007",
+            "display": "Physics-Unity"
+          },
+          {
+            "id": "Organization-Dept-3",
+            "reference": "Organization/Organization-Dept-3",
+            "display": "Radiation Oncology"
+          }
+        ]
+      }
+    }
+  ],
+  "timestamp": 1762758904000
+}

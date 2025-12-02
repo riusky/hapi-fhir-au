@@ -1,0 +1,258 @@
+{
+  "success": true,
+  "data": [
+    {
+      "resourceType": "Patient",
+      "id": "Patient-29590",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-11-10T02:32:06.827+00:00",
+        "profile": [
+          "http://fhir.siemens-healthineers.com/fhir/R4/StructureDefinition/shs-patient",
+          "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-patient",
+          "http://varian.com/fhir/v1/StructureDefinition/Patient"
+        ],
+        "tag": [
+          {
+            "code": "AllergyStatus",
+            "display": "Not Present"
+          },
+          {
+            "code": "DirectiveStatus",
+            "display": "Not Present"
+          },
+          {
+            "code": "InfectionStatus",
+            "display": "Not Present"
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-status",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://varian.com/fhir/CodeSystem/patient-status",
+                "code": "New Start",
+                "display": "New Start"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-class",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://varian.com/fhir/CodeSystem/patient-class",
+                "code": "Out Patient"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/recordedOn",
+          "valueDateTime": "2021-10-05T13:24:13-05:00"
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/person-gender",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://varian.com/fhir/CodeSystem/person-gender",
+                "code": "Male",
+                "display": "Male"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-clinicalTrial",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-20716",
+            "display": "DOSI_MOSAIQ_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-20717",
+            "display": "DOSI_MOSAIQ_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-27003",
+            "display": "DOSI_Add On_REPLAN"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-27006",
+            "display": "Unity Online ATS"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-27051",
+            "display": "Ethos-Replan"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-27052",
+            "display": "Ethos-Replan"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-31228",
+            "display": "Unity 7D Timeline-V2"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-34875",
+            "display": "Treatment"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-35921",
+            "display": "0RTT Import Unity"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-36294",
+            "display": "Unity 7D Timeline-V3"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-38488",
+            "display": "DOSI_ARIA_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-42087",
+            "display": "DOSI_ARIA_Quick"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-42088",
+            "display": "DOSI_ARIA_Quick"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-47121",
+            "display": "DOSI_ARIA_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-47122",
+            "display": "DOSI_ARIA_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-47123",
+            "display": "DOSI_ARIA_Quick"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-57541",
+            "display": "DOSI_ARIA_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-57545",
+            "display": "DOSI_MOSAIQ_Standard"
+          }
+        },
+        {
+          "url": "http://varian.com/fhir/v1/StructureDefinition/patient-carePlan",
+          "valueReference": {
+            "reference": "CarePlan/CarePlan-57546",
+            "display": "0RTT Import"
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://varian.com/fhir/identifier/Patient/MedOnc-Id",
+          "value": "JG89833"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/Patient/MedOnc-Id",
+          "value": "71720000000000022717"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/Patient/RadOnc-Id",
+          "value": "29590"
+        },
+        {
+          "system": "http://varian.com/fhir/identifier/Patient/patient-uid",
+          "value": "1.2.246.352.76.12.973432337593.29590.2127847413470"
+        },
+        {
+          "use": "official",
+          "system": "urn:dicom:uid",
+          "value": "urn:oid:1.2.246.352.76.12.973432337593.29590.2127847413470"
+        },
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "system": "http://fhir.siemens-healthineers.com/fhir/R4/CodeSystem/shs-code-system",
+                "code": "DCM00100020",
+                "display": "DICOM PatientID"
+              }
+            ]
+          },
+          "system": "http://varian.com/fhir/identifier/Patient/ARIAID1",
+          "value": "20211004"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "family": "ONESIGN",
+          "given": ["YKP"]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "2021-01-01"
+    }
+  ],
+  "timestamp": 1762758829506
+}

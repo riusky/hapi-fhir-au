@@ -231,8 +231,8 @@ services:
       context: ./services/hapi-fhir
       dockerfile: Dockerfile
     restart: unless-stopped
-    expose:
-      - 80:80
+    ports:
+      - 19090:8080
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-hapi-fhir}
       SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-admin}
