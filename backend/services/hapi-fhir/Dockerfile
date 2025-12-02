@@ -1,1 +1,1 @@
-FROM robferguson/hapi-fhir-au:8.4.0-3
+FROM hapiproject/hapi:v8.4.0-3
