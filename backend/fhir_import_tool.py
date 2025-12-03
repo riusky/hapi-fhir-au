@@ -54,37 +54,55 @@ class FHIRImporter:
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1327",
-                "name": [{"text": "Yang K. Park", "family": "Park", "given": ["Yang K."]}],
+                "name": [{"text": "Yan***. Park", "family": "Park", "given": ["Yan***."]}],
+                "active": True
+            },
+            {
+                "resourceType": "Practitioner",
+                "id": "Practitioner-1327111",
+                "name": [{"text": "Yan***. ****k2", "family": "****k2", "given": ["Yan***"]}],
+                "active": True
+            },
+            {
+                "resourceType": "Practitioner",
+                "id": "Practitioner-13271",
+                "name": [{"text": "Yan***. ***22k", "family": "***22k", "given": ["Yan***."]}],
+                "active": True
+            },
+            {
+                "resourceType": "Practitioner",
+                "id": "Practitioner-13278",
+                "name": [{"text": "User. Test", "family": "Test", "given": ["User"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1580",
-                "name": [{"text": "RO Drtest MD", "family": "Drtest", "given": ["RO"]}],
+                "name": [{"text": "RO Drtest ****", "family": "Drtest", "given": ["RO"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1635",
-                "name": [{"text": "Justin Visak", "family": "Visak", "given": ["Justin"]}],
+                "name": [{"text": "Justin V****", "family": "Visak", "given": ["Justin"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1722",
-                "name": [{"text": "Yen-Peng Liao", "family": "Liao", "given": ["Yen-Peng"]}],
+                "name": [{"text": "Yen-Peng ****", "family": "Liao", "given": ["Yen-Peng"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1766",
-                "name": [{"text": "Sagar Ghimire", "family": "Ghimire", "given": ["Sagar"]}],
+                "name": [{"text": "Sagar Ghi****", "family": "Ghimire", "given": ["Sagar"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1738",
-                "name": [{"text": "Unknown Practitioner", "family": "Unknown", "given": ["Practitioner"]}],
+                "name": [{"text": "Unknown Practit****", "family": "Unknown", "given": ["Practitioner"]}],
                 "active": True
             },
             # Organizations

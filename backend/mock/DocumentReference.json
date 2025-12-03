@@ -16,7 +16,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -71,7 +71,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "custodian": {
@@ -104,7 +104,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -130,7 +130,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -191,12 +191,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -228,7 +228,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -254,7 +254,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "display": "Yan***. Park"
               }
             },
             {
@@ -315,12 +315,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1327",
-        "display": "Yang K. Park"
+        "display": "Yan***. Park"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -377,7 +377,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -443,7 +443,7 @@
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -500,7 +500,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -566,7 +566,7 @@
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -619,7 +619,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -712,7 +712,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -738,7 +738,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -799,12 +799,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -835,7 +835,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -861,7 +861,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -922,12 +922,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -958,7 +958,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -980,7 +980,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -1041,7 +1041,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "custodian": {
@@ -1073,7 +1073,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yang K. Park"
+            "display": "Yan***. Park"
           }
         },
         {
@@ -1099,7 +1099,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1580",
-                "display": "RO Drtest MD"
+                "display": "RO Drtest ****"
               }
             },
             {
@@ -1160,12 +1160,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yang K. Park"
+          "display": "Yan***. Park"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1580",
-        "display": "RO Drtest MD"
+        "display": "RO Drtest ****"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",

@@ -96,17 +96,17 @@
               ]
             },
             "scheduledPeriod": {
-              "end": "2022-12-11T10:42:00-06:00"
+              "end": "2022-12-05T10:42:00-06:00"
             },
 
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1722",
-                "display": "Yen-Peng Liao"
+                "display": "Yen-Peng ****"
               },
               {
                 "reference": "Practitioner/Practitioner-1766",
-                "display": "Sagar Ghimire"
+                "display": "Sagar Ghi****"
               }
             ]
           }
@@ -175,8 +175,14 @@
                 }
               ]
             },
+            "performer": [
+              {
+                "reference": "Practitioner/Practitioner-1327111",
+                "display": "Yan***. ****k2"
+              }
+            ],
             "scheduledPeriod": {
-              "end": "2022-12-11T10:42:00-06:00"
+              "end": "2022-12-07T10:42:00-06:00"
             }
           }
         }
@@ -383,8 +389,8 @@
             },
             "performer": [
               {
-                "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "reference": "Practitioner/Practitioner-13278",
+                "display": "User. Test"
               }
             ]
           }
@@ -478,7 +484,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "display": "Yan***. Park"
               }
             ]
           }
@@ -555,7 +561,7 @@
                 "display": "Treatment Planning"
               }
             ],
-            "status": "scheduled",
+            "status": "in-progress",
             "_status": {
               "extension": [
                 {
@@ -578,7 +584,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "display": "Yan***. Park"
               }
             ]
           }
@@ -647,7 +653,7 @@
                 "display": "Physician"
               }
             ],
-            "status": "scheduled",
+            "status": "completed",
             "_status": {
               "extension": [
                 {
@@ -664,6 +670,12 @@
                 }
               ]
             },
+           "performer": [
+              {
+                "reference": "Practitioner/Practitioner-13271",
+                "display": "Yan***. ***22k"
+              }
+            ],
             "scheduledPeriod": {
               "end": "2022-12-12T08:00:00-06:00"
             }
@@ -737,7 +749,7 @@
                 "display": "Treatment Planning"
               }
             ],
-            "status": "scheduled",
+            "status": "not-started",
             "_status": {
               "extension": [
                 {
@@ -769,7 +781,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "display": "Yan***. Park"
               }
             ]
           }
@@ -910,7 +922,7 @@
                 "display": "Treatment Planning"
               }
             ],
-            "status": "scheduled",
+            "status": "not-started",
             "_status": {
               "extension": [
                 {
@@ -942,7 +954,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yang K. Park"
+                "display": "Yan***. Park"
               }
             ]
           }
