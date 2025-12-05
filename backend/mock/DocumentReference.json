@@ -16,7 +16,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -71,7 +71,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "custodian": {
@@ -104,7 +104,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -191,7 +191,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "authenticator": {
@@ -228,7 +228,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -254,7 +254,7 @@
               "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-signature#signer",
               "valueReference": {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yan***. Park"
+                "display": "Demo1. User1"
               }
             },
             {
@@ -315,12 +315,12 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "authenticator": {
         "reference": "Practitioner/Practitioner-1327",
-        "display": "Yan***. Park"
+        "display": "Demo1. User1"
       },
       "custodian": {
         "reference": "Organization/Organization-Prov-3",
@@ -712,7 +712,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -799,7 +799,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "authenticator": {
@@ -835,7 +835,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -922,7 +922,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "authenticator": {
@@ -958,7 +958,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -1041,7 +1041,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "custodian": {
@@ -1073,7 +1073,7 @@
           "url": "http://varian.com/fhir/v1/StructureDefinition/documentreference-supervisor",
           "valueReference": {
             "reference": "Practitioner/Practitioner-1327",
-            "display": "Yan***. Park"
+            "display": "Demo1. User1"
           }
         },
         {
@@ -1160,7 +1160,7 @@
       "author": [
         {
           "reference": "Practitioner/Practitioner-1327",
-          "display": "Yan***. Park"
+          "display": "Demo1. User1"
         }
       ],
       "authenticator": {

@@ -54,19 +54,19 @@ class FHIRImporter:
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1327",
-                "name": [{"text": "Yan***. Park", "family": "Park", "given": ["Yan***."]}],
+                "name": [{"text": "Demo1. User1", "family": "User1", "given": ["Demo1."]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-1327111",
-                "name": [{"text": "Yan***. ****k2", "family": "****k2", "given": ["Yan***"]}],
+                "name": [{"text": "Demo1. User2", "family": "User2", "given": ["Demo1"]}],
                 "active": True
             },
             {
                 "resourceType": "Practitioner",
                 "id": "Practitioner-13271",
-                "name": [{"text": "Yan***. ***22k", "family": "***22k", "given": ["Yan***."]}],
+                "name": [{"text": "Demo1. ***22k", "family": "***22k", "given": ["Demo1."]}],
                 "active": True
             },
             {

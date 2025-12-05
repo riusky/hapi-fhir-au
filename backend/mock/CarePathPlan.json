@@ -178,7 +178,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327111",
-                "display": "Yan***. ****k2"
+                "display": "Demo1. User2"
               }
             ],
             "scheduledPeriod": {
@@ -484,7 +484,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yan***. Park"
+                "display": "Demo1. User1"
               }
             ]
           }
@@ -584,7 +584,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yan***. Park"
+                "display": "Demo1. User1"
               }
             ]
           }
@@ -673,7 +673,7 @@
            "performer": [
               {
                 "reference": "Practitioner/Practitioner-13271",
-                "display": "Yan***. ***22k"
+                "display": "Demo1. ***22k"
               }
             ],
             "scheduledPeriod": {
@@ -781,7 +781,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yan***. Park"
+                "display": "Demo1. User1"
               }
             ]
           }
@@ -954,7 +954,7 @@
             "performer": [
               {
                 "reference": "Practitioner/Practitioner-1327",
-                "display": "Yan***. Park"
+                "display": "Demo1. User1"
               }
             ]
           }
