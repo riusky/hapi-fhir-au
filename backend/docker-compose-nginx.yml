@@ -12,9 +12,7 @@ services:
     extra_hosts:
       - 'host.docker.internal:host-gateway'
     volumes:
-      - '${PWD}/services/nginx/conf/ssl.conf:/etc/nginx/conf/ssl.conf'
       - '${PWD}/services/nginx/conf/nginx-default.conf.template:/etc/nginx/templates/default.conf.template'
-      - '${PWD}/certs:/etc/nginx/certs'
     depends_on:
       - oauth2-proxy
     networks:
@@ -65,7 +63,7 @@ services:
 
     command:
       [
-        'start',
+        'start-dev',
         '-Dkeycloak.migration.action=import',
         '-Dkeycloak.migration.provider=singleFile',
         '-Dkeycloak.migration.realmName=hapi-fhir-dev',
@@ -87,9 +85,6 @@ services:
     environment:
       KC_HOSTNAME: ${KEYCLOAK_HOSTNAME}
 
-      KC_HTTPS_CERTIFICATE_FILE: /etc/keycloak/certs/cert.pem
-      KC_HTTPS_CERTIFICATE_KEY_FILE: /etc/keycloak/certs/key.pem
-
       KC_PROXY_HEADERS: forwarded
 
       KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN:-admin}
@@ -109,9 +104,6 @@ services:
     # Make sure the certificate and the key (the *.pem files) have the correct permissions -> e.g., sudo chmod 655 *.pem
     volumes:
       - '${PWD}/services/keycloak/scripts/health-check.sh:/opt/keycloak/health-check.sh'
-      - '${PWD}/certs/keycloak-cert.pem:/etc/keycloak/certs/cert.pem'
-      - '${PWD}/certs/keycloak-key.pem:/etc/keycloak/certs/key.pem'
-      - '${PWD}/certs:/opt/keycloak/conf/truststores'
       - '${PWD}:/import'
     depends_on:
       postgres:
@@ -177,7 +169,7 @@ services:
       OAUTH2_PROXY_COOKIE_REFRESH: 25m
       OAUTH2_PROXY_COOKIE_SAMESITE: lax
       OAUTH2_PROXY_COOKIE_SECRET: ${COOKIE_SECRET}
-      OAUTH2_PROXY_COOKIE_SECURE: true
+      OAUTH2_PROXY_COOKIE_SECURE: false
 
       # Header options
       OAUTH2_PROXY_PASS_ACCESS_TOKEN: true

@@ -1,0 +1,34 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "SearchParameter",
+        "id": "DocumentReference-content",
+        "url": "http://hapi-fhir.au/SearchParameter/DocumentReference-content",
+        "version": "1.0.0",
+        "name": "DocumentReferenceContent",
+        "status": "active",
+        "experimental": false,
+        "date": "2025-12-04",
+        "publisher": "HAPI FHIR AU",
+        "description": "Reference to DocumentReference content for _include parameter support",
+        "code": "content",
+        "base": [
+          "DocumentReference"
+        ],
+        "type": "reference",
+        "expression": "DocumentReference.content.attachment",
+        "target": [
+          "Binary",
+          "Attachment"
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "SearchParameter/DocumentReference-content"
+      }
+    }
+  ]
+}
